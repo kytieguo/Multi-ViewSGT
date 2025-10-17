@@ -1,0 +1,25 @@
+Namespace(batch_size=32, custom_trans=True, d_model=128, decay=0, device=0, dim_feedforward=512, dim_pe=28, eigvec_norm='L2', epochs=100, eval_train=False, fast_eval=False, force_noschedule=False, freeze_epochs=0, freeze_token=False, gnn_JK='last', gnn_activation='relu', gnn_dropout=0.5, gnn_emb_dim=300, gnn_encoder_layer=5, gnn_token_layer=1, gnn_type='gin_v3', kernel_times=[], kernel_times_func='none', laplacian_norm='none', layers=3, lr=0.0001, max_freqs=20, model_file='checkpoints/m35_ckt.pt', name='finetune', nhead=4, num_seeds=10, num_workers=2, pe_type='none', phi_hidden_dim=32, phi_out_dim=32, post_layers=2, raw_norm_type='none', run_remain=False, scheme_prefix='linear', seed=42, skip_evaluation=False, split='scaffold', start_seed=0, thread_num=2, trans_encoder_layer=4, trans_pooling='none', transformer_activation='relu', transformer_dropout=0.3, transformer_norm_input=True, tuning_dataset=None, use_gnn2=False, use_schedule=False)
+[2024-10-12 21:04:39] Start Tuning muv
+[2024-10-12 21:04:39] Start Tuning bbbp
+[2024-10-12 22:04:51] bbbp subprocess output: 0
+[2024-10-12 22:04:51] Finished tuning bbbp
+[2024-10-12 22:04:51] Start Tuning clintox
+[2024-10-12 22:04:55] clintox subprocess output: 1
+[2024-10-12 22:04:55] Finished tuning clintox
+[2024-10-12 22:04:55] Start Tuning hiv
+[2024-10-12 22:05:19] hiv subprocess output: 1
+[2024-10-12 22:05:19] Finished tuning hiv
+[2024-10-12 22:05:19] Start Tuning toxcast
+[2024-10-13 02:11:49] toxcast subprocess output: 0
+[2024-10-13 02:11:49] Finished tuning toxcast
+[2024-10-13 02:11:49] Start Tuning tox21
+[2024-10-13 05:46:41] tox21 subprocess output: 0
+[2024-10-13 05:46:41] Finished tuning tox21
+[2024-10-13 05:46:41] Start Tuning sider
+[2024-10-13 06:35:29] sider subprocess output: 0
+[2024-10-13 06:35:29] Finished tuning sider
+[2024-10-13 06:35:29] Start Tuning bace
+[2024-10-13 07:24:34] bace subprocess output: 0
+[2024-10-13 07:24:34] Finished tuning bace
+[2024-10-14 12:46:25] muv subprocess output: 0
+[2024-10-14 12:46:25] Finished tuning muv
