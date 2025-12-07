@@ -1,6 +1,6 @@
 #!/bin/bash
 {
-export name="SimSGT";
+export name="Turbo";
 export model_file="results/$name/model_100.pth";
 export device="0";
 
