@@ -20,7 +20,7 @@ Then run the following code for pretraining and finetuning:
 # pre-train and fune-tune the model
 sh script/run.sh
 
-python read_results.py --path results/SimSGT
+python read_results.py --path results/Turbo
 ```
 
 ```bash
