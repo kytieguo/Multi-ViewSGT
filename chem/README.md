@@ -6,8 +6,6 @@ PyTorch = 1.11.0
 
 PyG == 2.0.4
 
-You may refer to https://github.com/snap-stanford/pretrain-gnns#dataset-download to download datasets.
-
 ## Reproducing results
 To reproduce the results, you need to create a directory for recording results:
 ```
